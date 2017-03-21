@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, it takes a snapshot of the existing files in
+your location. You need to do it so you can begin to commit new versions of the
+files in your repository.
