@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  Collaborators can make changes based on the remote repository while you work on your own changes
+  To distinguish what should be public vs what you're working on that isn't stable yet
