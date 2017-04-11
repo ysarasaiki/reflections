@@ -10,9 +10,19 @@ Describe the differences between forks, clones, and branches. When would you use
   Clones: creating a copy either locally, or creating a copy off of a remote repository onto your local.
   Branches: creating a new file based on an existing repository.
 
-  What is the benefit of having a copy of the last known state of the remote
+What is the benefit of having a copy of the last known state of the remote
   stored locally?
 
   Having a copy of the last known state of the remote stored locally can be help-
   ful when making changes offline. After you make changes, you can run git diff to
-  see the changes from the master on remote. 
+  see the changes from the master on remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and
+what would be harder?
+  Without using Git or GitHub, collaboration would be done via dropbox, email,
+  or another file sharing service. It would be easier because no code is needed,
+  and there is no possibility of conflicts between changes since collaboration
+  would have to occur linearly. On the other hand, this doesn't allow for
+  collaborators working simultaneously and is not ideal for efficiency.
+
+  
