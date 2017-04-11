@@ -25,4 +25,11 @@ what would be harder?
   would have to occur linearly. On the other hand, this doesn't allow for
   collaborators working simultaneously and is not ideal for efficiency.
 
-  
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+  By working in separate branches rather than directly in master, it allows for
+  the same reasons for working in a branch - testing out a new feature, or
+  working on a feature that isn't ready to be released, which allows other users
+  to work on their own features based on the stable master branch that remains
+  untouched. On the other hand, working directly in master is much easier - you
+  can make changes directly on your local master, commit and push these changes.
