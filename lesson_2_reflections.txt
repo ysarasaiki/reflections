@@ -3,3 +3,10 @@ What happens when you initialize a repository? Why do you need to do it?
 When you initialize a repository, it takes a snapshot of the existing files in
 your location. You need to do it so you can begin to commit new versions of the
 files in your repository.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+Having a copy of the last known state of the remote stored locally can be help-
+ful when making changes offline. After you make changes, you can run git diff to
+see the changes from the master on remote. 
